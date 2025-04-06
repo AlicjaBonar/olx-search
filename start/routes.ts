@@ -21,4 +21,4 @@ router.get("/elo", async () => {
   return "żelo";
 });
 
-router.post("/test", [SearchQueriesController, "store"]);
+router.post("/search-queries", [SearchQueriesController, "store"]);
